@@ -17,7 +17,7 @@ stages:
     cfOrg: "13877c61trial"
     cfSpace: "dev"
     cfAppName: "sap_btp_dev"
-    cfCredentialsId: "deploy-to-cf"
+    cfCredentialsId: "deploycf"
     uiVeri5ExecuteTests: false
 
   Release:
@@ -26,7 +26,7 @@ stages:
     cfOrg: "13877c61trial"
     cfSpace: "dev"
     cfAppName: "sap_btp_dev"
-    cfCredentialsId: "deploy-to-cf"
+    cfCredentialsId: "deploycf"
     tmsUpload: false
 
 steps:
